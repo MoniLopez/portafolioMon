@@ -1,1 +1,76 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box; /*Para que incluya border y padding en los tamaños que se indiquen*/
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #efdde6;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+}
+
+.contenedor{
+    width: 90%; /*El 10% restante es para margenes*/
+    max-width: 1000px;
+    margin: auto; /*Centra el contenedor*/
+    overflow: hidden; /*Elimina el contenido sobrante*/
+}
+
+.tamTitulo{
+    font-size: 34px;    
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.main .contenedor{
+    overflow: visible;
+}
+
+.btnMorado{
+    margin:auto;
+    background: #761943;
+    color:#e1b5cd;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+}
+.btnMorado:hover{
+    background: #e1b5cd;
+    border: #582b44 2px solid;
+    color: #582b44;
+}
+
+/*Media queries para mantener responsivo*/
+
+
+@media screen and (max-width: 500px){
+    .nombreTitulo{
+        font-size: 35px;
+    }
+    
+    .profesion{
+        font-size: 18px;
+    }
+
+    /*opcional, al ser tres botones no es necesario*/
+    .redesSociales .contenedor{
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+}

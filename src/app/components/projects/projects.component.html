@@ -1,0 +1,30 @@
+<section class="sobreMi">
+    <div class="contenedor">
+        <div class="espacioFoto">
+            <img class="foto" src="assets/fotoMoni.jpg" width="135" height="135" alt="MonicaLopez">
+        </div>
+        <div class="texto">
+            <h3 class="titulo tamTitulo">Sobre mi</h3>
+            <p>Soy desarrolladora Frontend con enfoque en UX/UI, creativa y comprometida con la mejora continua. Tengo conocimiento en angular, creación de prototipos en Figma y procedimientos almacenados en SQL Server. Mi curiosidad, proactividad y ganas de aprender me permiten proponer ideas, estar en mejora continua y abierta a las posibilidades. Disfruto resolver problemas de manera creativa y analítica, siempre manteniendo una comunicación efectiva y una organización clara en mis proyectos.</p>
+        </div>
+    </div>
+</section>
+
+<section class="trabajos">
+    <div class="contenedor">
+        <h3 class="titulo tamTitulo">Trabajos</h3>
+        <div class="contenedorTrabajos">
+            <div class="trabajo" *ngFor="let trabajo of listaTrabajos">
+                <div class="espacioImgTrabajo">
+                    <a [routerLink]="['/details', trabajo.nombre]"><img src={{trabajo.imagen}} alt="{{trabajo.nombre}}"></a>
+                </div>
+                <div class="descripcionTrabajo">
+                    <p class="nombre" >{{trabajo.nombre}}</p>
+                    <p class="herramientas">{{trabajo.herramientas}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-contacto></app-contacto>

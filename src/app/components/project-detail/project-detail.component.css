@@ -1,0 +1,46 @@
+.detalleTrabajo{
+    text-align: center;
+}
+
+.titulo{
+    color: #3e651a;
+    text-align: center;
+}
+
+.texto{
+    color: #582b44;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto 60px auto;
+    text-align: justify;
+}
+
+.subtitulo{
+    color: #3e651a;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.espacioImg{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.espacioImg img{
+    width: 80%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+
+.botones{
+    display: flex;
+    margin-top: 3%;
+}
+
+a{
+    text-decoration: none;
+}

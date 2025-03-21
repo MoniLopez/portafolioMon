@@ -1,0 +1,90 @@
+/*Section Sobre Mi*/
+.sobreMi{
+    text-align: center;
+}
+
+.espacioFoto{
+    margin-top: -60px;
+}
+
+.foto{
+    vertical-align: top;
+    border-radius: 50%;
+    border: 5px solid rgba(239, 221, 230, 0.2);
+}
+
+.sobreMi .texto{
+    color: #582b44;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto 60px auto;
+    text-align: justify;
+
+}
+
+.sobreMi .texto .titulo{
+    color: #5eaf11;
+    text-align: center;
+}
+
+/*Section Trabajos*/
+.trabajos{
+    background-color: #d8bcca;
+    padding: 60px 0;
+
+}
+
+.trabajos .contenedor{
+    overflow: hidden;
+}
+
+.trabajos .titulo{
+    color: #3e651a;
+    text-align: center;
+}
+
+.contenedorTrabajos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.trabajo{
+    width: 23%;
+    margin-bottom: 40px;
+}
+
+.espacioImgTrabajo{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.espacioImgTrabajo img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+
+.descripcionTrabajo{
+    text-align: center;
+}
+
+.descripcionTrabajo .nombre{
+    font-weight: 700;
+    color: #582b44;
+    margin-bottom: 10px;
+}
+
+.descripcionTrabajo .herramientas{
+    font-size: 14px;
+    color:#3e651a
+}
+
+@media screen and (max-width: 800px) {
+    .trabajo{
+        width: 46%;
+    }
+}

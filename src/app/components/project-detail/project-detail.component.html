@@ -1,0 +1,21 @@
+<section class="dellateTrabajo">
+  <div class="contenedor">
+    <div class="texto">
+      <h3 class="titulo tamTitulo">{{proyecto?.nombre}}</h3>
+      <div class="espacioImg">
+        <img src="{{proyecto?.imagen}}" alt="{{proyecto?.imagen}}">
+      </div>
+      <h4 class="subtitulo">Descripción:</h4><p>{{proyecto?.descripcion}}</p>
+      <h4 class="subtitulo">Herramientas usadas:</h4><p>{{proyecto?.herramientas}}</p>
+      <h4 class="subtitulo">Actividades realizadas:</h4>
+      <ul>
+        <li *ngFor="let actividad of proyecto?.actividades">{{ actividad }}</li>
+      </ul>
+      <div class="botones">
+        <a *ngIf="proyecto?.urlGit" class="subtitulo" [href]="proyecto?.urlGit" target="_blank" class="btnMorado">📂 GitHub</a>
+        <a *ngIf="proyecto?.urlFigma" class="subtitulo" [href]="proyecto?.urlFigma" target="_blank" class="btnMorado">🎨 Figma</a>
+      </div>
+      
+    </div>
+  </div>
+</section>

@@ -1,0 +1,80 @@
+.imgCabecera{
+    background: url('../../../../public/assets/principal.svg') #582b44;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px; /*600px*/
+    max-height: 300px;
+}
+
+.menuNav{
+    padding: 40px 0;
+    text-align: right;
+}
+
+.linkMenu{
+    margin: 0 20px;
+    color: #A6E029;
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size: 1em;
+}
+
+.linkMenu:hover{
+    border-bottom: 2px solid #A6E029;
+}
+
+.contenedorTitulo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: -10px 0; /*190*/
+}
+
+.marco{
+    border: 2px solid rgba(166, 224, 41, 0.5);
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+h1,h2{
+    color: #A6E029;
+    font-weight: 100;
+    margin: 0;
+}
+
+.nombreTitulo{
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.profesion{
+    font-size: 25px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 800px) {
+    .menuNav{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .nombreTitulo{
+        font-size: 35px;
+    }
+    
+    .profesion{
+        font-size: 18px;
+    }
+
+    /*opcional, al ser tres botones no es necesario*/
+    .redesSociales .contenedor{
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+}

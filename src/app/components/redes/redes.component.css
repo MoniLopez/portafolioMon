@@ -1,0 +1,35 @@
+.redesSociales{
+    background: #582b44;
+    padding: 60px 0;
+}
+
+.redesSociales .contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.redesSociales a{
+    color: #e1b5cd;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+.redesSociales a:hover{
+    border-radius: 3px;
+    border: #e1b5cd;
+    color:#582b44;
+    background: #e1b5cd;
+
+}
+
+@media screen and (max-width: 500px){
+    /*opcional, al ser tres botones no es necesario*/
+    .redesSociales .contenedor{
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+}

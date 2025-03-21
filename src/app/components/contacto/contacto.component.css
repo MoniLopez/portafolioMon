@@ -1,0 +1,41 @@
+.contacto{
+    padding: 60px 0;
+}
+
+.contacto .titulo{
+    color: #582b44;
+    text-align: center;
+}
+
+.contacto .formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.formMorado{
+    border: 2px solid #582b44;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color:#000;
+}
+
+.formMorado:focus{
+    border: 2px solid #761  !important; /*Corregir porque no lo hace*/
+}
+
+input[type="text"], input[type="email"]{
+    width: 48%;
+    margin-bottom: 15px;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
