@@ -32,7 +32,7 @@ export class ProjectsService {
       descripcion: 'Colaboración en el Sistema web centralizado para administrar usuarios, perfiles y accesos en múltiples plataformas. Este sistema permite la gestión unificada de credenciales y configuraciones, optimizando el control de permisos y la administración de sistemas',
       actividades:['Toma de requerimientos','Creación de logo, fondo, paleta de colores e iconos en Illustrator','Diseño de prototipo en Figma'],
       imagen: 'assets/gusit.png',
-      urlFigma: 'https://www.figma.com/proto/Fv1IeYzuKVj2SKjmOuiBos/G-Usit-Correcto?node-id=2-3&t=EQ5E9rVo6jYwIIzn-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A3&show-proto-sidebar=1'
+      urlFigma:'https://www.figma.com/proto/Fv1IeYzuKVj2SKjmOuiBos/G-Usit-Correcto?node-id=2-3&p=f&t=G3Gqb4qSUdgf36ZU-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A3'
     },
     {
       nombre: 'Citas y Turno',
@@ -40,7 +40,7 @@ export class ProjectsService {
       descripcion: 'Sistema web destinado a los usuarios de catastro, el personal de la oficina central y delegaciones. El sistema permitirá la solicitud de citas y la gestión de la atención en ventanilla, con el objetivo de acelerar el proceso y disminuir los tiempos de espera. Debido a causas internas el proyecto se quedó en la fase de diseño y no continuó',
       actividades: ['Toma de requerimientos','Creación de logo, fondo, paleta de colores e iconos en Illustrator','Diseño de prototipo en Figma'],
       imagen: 'assets/citas.png',
-      urlFigma: 'https://www.figma.com/proto/VFwpjWaO9G6OO59PWW7Y1K/citas?node-id=2-2&starting-point-node-id=2%3A2'
+      urlFigma: 'https://www.figma.com/proto/VFwpjWaO9G6OO59PWW7Y1K/citas?node-id=2-2&p=f&t=fSluZExsIAnthRBo-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2'
     },
     {
       nombre:'Calculadora de Valuación Territorial',
